@@ -5,6 +5,8 @@ sudo apt -y install build-essential
 sudo apt -y install bc
 sudo apt -y install lbzip2
 sudo apt -y install qemu-user-static
+# additional for generating image
+sudo apt -y install libxml2-utils
 
 # Create build folder
 mkdir $HOME/jetson_nano
